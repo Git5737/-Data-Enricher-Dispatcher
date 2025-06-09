@@ -1,0 +1,54 @@
+# Go build files
+/bin/
+/build/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go modules
+/go.sum
+
+# Dependency directories (vendor or Go modules cache)
+vendor/
+
+# IDE config (GoLand, JetBrains)
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Test coverage
+coverage.out
+*.coverprofile
+
+# Editor/Tool backup files
+*~
+*.swp
+*.swo
+
+# GitHub Codespaces or DevContainers (if used)
+.devcontainer/
+
+# VS Code settings (optional)
+.vscode/
+
+# Profiling/debugging
+pprof/
+cpu.prof
+mem.prof
+block.prof
+mutex.prof
